@@ -1,0 +1,33 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    padding-top: 12px;
+    margin: 1.2em;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    width: calc(100% - 8em);
+    height: calc(100% - 24em);
+    margin-top: 0;
+    margin-left: 2em;
+    padding: 2em;
+    padding-top: .1em;
+
+    position: relative;
+
+    border-radius: 10px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+.arg-content {
+    white-space: pre-wrap;
+}
