@@ -125,5 +125,44 @@
         ],
         "description": "Capturan al reo mas buscado de Chile\n\nChatGPT: Raúl Patricio Ampuero Miranda, el reo más buscado de Chile que se fugó hace 10 años, fue capturado por la PDI. Ampuero tenía un historial delictivo extenso, incluyendo homicidio y robo con violencia. A pesar de su peligrosidad, logró evadir a la policía durante años, incluso saliendo del país hacia Argentina y regresando. Fue detenido tras una orden judicial para registrar su casa. Ahora enfrentará los 10 años restantes de su condena, además de nuevas acusaciones por crímenes cometidos mientras estaba prófugo. La fecha de formalización está programada para el 21 de marzo.",
         "date": "2024-02-18"
+    },
+    "13": {
+        "title": "Censo 2002",
+        "source": [
+            "https://twitter.com/JavierDiazCCR/status/1759567212925337890",
+            "https://celade.cepal.org/censosinfo/Boletas/CL_BDef_2002.pdf",
+            "https://web.archive.org/web/20221011051125/https://celade.cepal.org/censosinfo/Boletas/CL_BDef_2002.pdf"
+        ],
+        "description": "La Cédula Censal de 2002 NO CONTIENE PREGUNTA ALGUNA sobre Nombre y MENOS apellido.",
+        "date": "2002-06-01"
+    },
+    "14": {
+        "title": "Censo 2012",
+        "source": [
+            "https://twitter.com/JavierDiazCCR/status/1759567212925337890",
+            "https://web.archive.org/web/20111112084128/http://www.censo.cl/wp-content/uploads/2011/11/cuestionario_censal_2012.pdf"
+        ],
+        "description": "Aquella de 2012 pregunta solamente el NOMBRE DE PILA.",
+        "date": "2012-06-01"
+    },
+    "15": {
+        "title": "Censo 2017",
+        "source": [
+            "https://twitter.com/JavierDiazCCR/status/1759567212925337890",
+            "http://www.censo2017.cl/wp-content/uploads/2017/04/CUESTIONARIO-CENSO-2017-OF.pdf",
+            "https://web.archive.org/web/20230409070900/http://www.censo2017.cl/wp-content/uploads/2017/04/CUESTIONARIO-CENSO-2017-OF.pdf"
+        ],
+        "description": "Aquella de 2017 pregunta NOMBRE y APELLIDO \"De todas las personas de este hogar que ALOJARON anoche en esta vivienda.\"",
+        "date": "2017-06-01"
+    },
+    "16": {
+        "title": "Censo 2024",
+        "source": [
+            "https://twitter.com/JavierDiazCCR/status/1759567212925337890",
+            "https://censo2024.inechile.cl/file/cuestionario-censal-2024.pdf",
+            "https://web.archive.org/web/20240102172815/https://censo2024.inechile.cl/file/cuestionario-censal-2024.pdf"
+        ],
+        "description": "La Cédula Censal de 2024 exige el NOMBRE y APELLIDO \"De todas las personas que CONFORMAN este hogar y que RESIDEN HABITUALMENTE en esta vivienda.\"",
+        "date": "2024-06-01"
     }
 }
