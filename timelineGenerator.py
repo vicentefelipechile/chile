@@ -91,7 +91,7 @@ VariableGenerator: str = "    var contenido = {"
 for key, value in contenido.items():
     VariableGenerator += f"\n        {key}: {json.dumps(value, ensure_ascii=False)},"
 VariableGenerator = VariableGenerator[:-1]
-VariableGenerator += "\n    };"
+VariableGenerator += "\n    }"
 
 # Concatenar las variables y luego escribir el archivo en "js/timeline.js"
 with open("js/timeline.js", "w", encoding="utf-8") as file:
