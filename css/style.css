@@ -24,8 +24,9 @@ html, body {
     position: relative;
 
     border-radius: 10px;
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.425);
     overflow-y: scroll;
+    background: white;
 }
 
 .arg-content {
