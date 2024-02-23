@@ -55,7 +55,8 @@
             "https://x.com/sergiou01329861/status/1757458252319580620?s=20",
             "https://x.com/Tor25899035/status/1755293732264460599?s=20",
             "https://x.com/Iherreraa/status/1754616167014994192?s=20",
-            "https://x.com/DRESTRUM__Pl/status/1758641440044011959?s=20"
+            "https://x.com/DRESTRUM__Pl/status/1758641440044011959?s=20",
+            "https://x.com/Rick1879GP/status/1760719332852535519?s=20"
         ],
         "description": "Debido a los incendios ocurridos en febrero, las personas de viña del mar se quejan de poca ayuda del gobierno",
         "date": "2024-02-15"
@@ -250,6 +251,16 @@
             "https://x.com/WenaChile/status/1760736451787149493?s=20"
         ],
         "description": "ChatGPT: La inteligencia militar venezolana se encuentra en Chile, secuestraron a un teniente venezolano que se encontraba en Chile, el teniente habia desertado del ejercito venezolano y habia recibido asilo en Chile.",
+        "date": "2024-02-22"
+    },
+    "24": {
+        "title": "Camila Vallejo confirma colaboracion con gobierno venezolano por secuestro de exmilitar",
+        "source": [
+            "https://x.com/latercera/status/1760709222373679194?s=20",
+            "https://www.latercera.com/politica/noticia/ministra-vocera-confirma-que-el-ejecutivo-ya-esta-trabajando-con-gobierno-venezolano-por-secuestro-de-exmilitar/DQCKBDMWQZEATDCYTHSBRKKDVY/",
+            "https://www.lanacion.cl/secuestro-de-exmilitar-venezolano-vallejo-remarca-que-se-han-hecho-contactos-a-nivel-de-gobierno-con-ese-pais/"
+        ],
+        "description": "ChatGPT: La ministra vocera de gobierno, Camila Vallejo (PC), confirmó que el Ejecutivo chileno ya ha establecido contacto con el gobierno venezolano en respuesta al secuestro del exmilitar venezolano Ronald Ojeda en Independencia.\n\nVallejo mencionó que el presidente, el canciller y la ministra del Interior han sostenido reuniones con las instituciones correspondientes para colaborar en la investigación. Además, el embajador de Chile en Venezuela está gestionando una conversación con el viceministro de las Américas de la Cancillería Venezolana, y se ha establecido contacto a nivel policial y a través de las fiscalías pertinentes.",
         "date": "2024-02-22"
     }
 }
