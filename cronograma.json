@@ -56,7 +56,10 @@
             "https://x.com/Tor25899035/status/1755293732264460599?s=20",
             "https://x.com/Iherreraa/status/1754616167014994192?s=20",
             "https://x.com/DRESTRUM__Pl/status/1758641440044011959?s=20",
-            "https://x.com/Rick1879GP/status/1760719332852535519?s=20"
+            "https://x.com/Rick1879GP/status/1760719332852535519?s=20",
+            "https://x.com/SebastianRochaZ/status/1761053959811178569?s=20",
+            "https://x.com/zurditabella261/status/1761040143618605163?s=20",
+            "https://x.com/VisionPais2050/status/1761186640251289619?s=20"
         ],
         "description": "Debido a los incendios ocurridos en febrero, las personas de viña del mar se quejan de poca ayuda del gobierno",
         "date": "2024-02-15"
@@ -225,7 +228,9 @@
     "22": {
         "title": "Informacion sobre secuestro del teniente venezolano",
         "source": [
-            "https://vicentefelipechile.github.io/media/[twitter] javier_gm—2024.02.21—1760427374187884993—KfTXZYU0HoBGpd2t.mp4",
+            "https://vicentefelipechile.github.io/chile/media/[twitter] javier_gm—2024.02.21—1760427374187884993—KfTXZYU0HoBGpd2t.mp4",
+            "https://vicentefelipechile.github.io/chile/media/[twitter] T13—2024.02.23—1760977802676064633—YhajOIxsiva8-JJG.mp4",
+            "https://x.com/T13/status/1760977802676064633?s=20",
             "https://x.com/javier_gm/status/1760427374187884993?s=20",
             "https://x.com/pablolirar/status/1760642607435169978?s=20",
             "https://x.com/DRESTRUM__Pl/status/1760633940476371183?s=20",
@@ -248,7 +253,8 @@
             "https://x.com/_malacostraceo_/status/1760661002327138719?s=20",
             "https://x.com/Patriota_Reina/status/1760625794047737874?s=20",
             "https://x.com/javier_gm/status/1760427374187884993?s=20",
-            "https://x.com/WenaChile/status/1760736451787149493?s=20"
+            "https://x.com/WenaChile/status/1760736451787149493?s=20",
+            "https://www.biobiochile.cl/noticias/internacional/america-latina/2024/02/22/exjefe-de-inteligencia-de-guaido-por-secuestro-en-chile-maduro-pudo-subcontratar-al-tren-de-aragua.shtml"
         ],
         "description": "ChatGPT: La inteligencia militar venezolana se encuentra en Chile, secuestraron a un teniente venezolano que se encontraba en Chile, el teniente habia desertado del ejercito venezolano y habia recibido asilo en Chile.",
         "date": "2024-02-22"
@@ -262,5 +268,110 @@
         ],
         "description": "ChatGPT: La ministra vocera de gobierno, Camila Vallejo (PC), confirmó que el Ejecutivo chileno ya ha establecido contacto con el gobierno venezolano en respuesta al secuestro del exmilitar venezolano Ronald Ojeda en Independencia.\n\nVallejo mencionó que el presidente, el canciller y la ministra del Interior han sostenido reuniones con las instituciones correspondientes para colaborar en la investigación. Además, el embajador de Chile en Venezuela está gestionando una conversación con el viceministro de las Américas de la Cancillería Venezolana, y se ha establecido contacto a nivel policial y a través de las fiscalías pertinentes.",
         "date": "2024-02-22"
+    },
+    "25": {
+        "title": "Boric interrumpe sus vacaciones por secuestro",
+        "source": [
+            "https://www.latercera.com/politica/noticia/boric-interrumpe-vacaciones-y-encabeza-reunion-por-secuestro-de-venezolano-y-pide-gestiones-a-cancilleria/BTALNSIUTVHGFKV3WPMYJK34X4/",
+            "https://x.com/latercera/status/1760979060962852960?s=20"
+        ],
+        "description": "ChatGPT: El presidente Gabriel Boric interrumpió sus vacaciones para liderar una reunión de emergencia sobre el secuestro del exmilitar venezolano Ronald Ojeda, quien está siendo investigado por el Ministerio Público y las policías chilenas.\n\nEn la reunión telemática, participaron ministros como Carolina Tohá y Luis Cordero, así como el canciller Alberto van Klaveren. Boric instruyó a la Cancillería para que realice gestiones con Venezuela y otros países vecinos, ante la posibilidad de que el secuestro esté vinculado al régimen de Maduro.\n\nEl gobierno se comprometió a querellarse por el secuestro y se han tomado medidas para coordinar la respuesta ante este caso de alta gravedad, que ha acaparado la agenda gubernamental.",
+        "date": "2024-02-22"
+    },
+    "26": {
+        "title": "Extranjeros pueden recibir creditos hipotecarios",
+        "source": [
+            "https://www.chvnoticias.cl/nacional/proyecto-personas-extranjeras-creditos-hipotecarios_20240222/",
+            "https://x.com/CHVNoticias/status/1760761339557896228?s=20"
+        ],
+        "description": "ChatGPT: El diputado chileno Juan Manuel Fuenzalida presentó un proyecto de ley para permitir que extranjeros no residentes en Chile accedan a créditos hipotecarios, con el objetivo de impulsar el mercado inmobiliario y la construcción en el país. El proyecto busca modificar la legislación actual para facilitar este proceso, tomando como referencia el éxito del estado de Florida en Estados Unidos en la atracción de compradores extranjeros.",
+        "date": "2024-02-22"
+    },
+    "27": {
+        "title": "Intento de usurpacion de terrenos en Quilpue",
+        "source": [
+            "https://twitter.com/biobio/status/1760977829959958858",
+            "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2024/02/23/denuncian-al-menos-dos-intentos-de-usurpacion-de-terrenos-en-quilpue-tras-incendios.shtml"
+        ],
+        "description": "ChatGPT: La Delegación Presidencial Provincial de Marga Marga en Chile confirmó el desalojo de un intento de toma de terrenos en la villa Olímpica de Quilpué, donde se pretendía construir un corral de animales según denuncias vecinales.\n\nOtro intento similar ocurrió en el sector de Pompeya Sur. Aunque el primero no estuvo relacionado con los incendios, desde el 2022, la provincia ha frustrado más de 15 intentos de tomas gracias a denuncias de vecinos.\n\nEn el segundo caso, en calle Coquimbo, Carabineros confirmó una usurpación en un área afectada por incendios, donde la víctima demostró la propiedad a través de escritura pública. Para prevenir más delitos de este tipo, se ha implementado un refuerzo en los patrullajes policiales.",
+        "date": "2024-02-23"
+    },
+    "28": {
+        "title": "Señora reclama contra Sergio Aguiló",
+        "source": [
+            "https://x.com/T13/status/1760977802676064633?s=20",
+            "https://vicentefelipechile.github.io/chile/media/[twitter] DiComo73—2024.02.22—1760646232496562258—RBn-GnJ8m1bu-X8z.mp4"
+        ],
+        "description": "Señora reclama contra Sergio Aguiló (PC)\n\nAdvertencia: Imagenes sensibles",
+        "date": "2024-02-22"
+    },
+    "29": {
+        "title": "Ministra Vallejo confirma desalojo de albergues",
+        "source": [
+            "https://x.com/biobio/status/1760725060372058438?s=20",
+            "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2024/02/22/vuelco-en-gobierno-vallejo-confirma-que-colegios-usados-de-albergues-deben-desocuparse-este-viernes.shtml",
+            "https://www.t13.cl/noticia/nacional/ministra-vallejo-confirmo-colegios-usados-como-albergues-deben-desocuparse-este-22-2-2024",
+            "https://lahora.cl/cronica/2024/02/22/cambio-de-opinon-camila-vallejo-confirmo-el-desalojo-de-establecimientos-que-son-ocupados-como-albergues/",
+            "https://www.soychile.cl/Valparaiso/Sociedad/2024/02/22/848642/ministra-vallejo-desalojo-colegios-albergues.html"
+        ],
+        "description": "ChatGPT: La Ministra de Gobierno, Camila Vallejo, confirmó que los albergues utilizados por los damnificados de los incendios en Viña del Mar, Villa Alemana y Quilpué deben ser desalojados antes del viernes para adaptarse como escuelas antes del inicio del año escolar.\n\nA pesar de las garantías anteriores del Ministerio de Desarrollo Social de que no habría desalojos masivos, los afectados recibieron la noticia con preocupación y angustia. Funcionarios municipales informaron a los damnificados que debían dejar los albergues y regresar a sus terrenos con solo carpas y cajas de alimentos, incluso con el pronóstico de lluvia y bajas temperaturas.",
+        "date": "2024-02-22"
+    },
+    "30": {
+        "title": "Cierre de fundición Paipote",
+        "source": [
+            "https://vicentefelipechile.github.io/chile/media/[twitter] AntiRojos1973—2024.02.23—1761059317812281530—9A6rf8gHMMOIWbX2.mp4",
+            "https://x.com/AntiRojos1973/status/1761059317812281530?s=20",
+            "https://www.emol.com/noticias/Economia/2024/02/23/1122661/enami-cierre-fundicion-trabajadores.html"
+        ],
+        "description": "La Empresa Nacional de Minería (Enami) ha concretado el cierre de la fundición Paipote, adelantando su cese de operaciones debido a la crisis financiera que enfrenta.",
+        "date": "2024-02-23"
+    },
+    "31": {
+        "title": "Gente de Colo-Colo causan desmanes",
+        "source": [
+            "https://x.com/camilaemiliasv/status/1761146056404779204?s=20",
+            "https://x.com/Barras_LATAM/status/1761076774048334043?s=20",
+            "https://x.com/GAMBA_CL/status/1761027685956960378?s=20",
+            "https://www.gamba.cl/2024/02/simios-garra-blanca-cagada-mendoza/",
+            "https://x.com/therealbuni/status/1761080945745006836?s=20",
+            "https://x.com/camilaemiliasv/status/1761480012157296753?s=20",
+            "https://x.com/biobio/status/1761448702365831533?s=20",
+            "https://www.biobiochile.cl/noticias/deportes/futbol/futbol-nacional/2024/02/24/hincha-de-colo-colo-acusado-de-abuso-sexual-en-mendoza-ira-a-la-carcel-denunciante-tenia-lesiones.shtml",
+            "https://x.com/camilaemiliasv/status/1761173537736286373?s=20"
+        ],
+        "description": "ChatGPT: Individuos pertenecientes a la barra brava \"Garra Blanca\" protagonizaron disturbios en Mendoza, saqueando comercios, agrediendo a personas y cometiendo incluso abuso sexual contra una mujer.",
+        "date": "2024-02-23"
+    },
+    "32": {
+        "title": "Concejal de Huasco interviene humedal con retroexcavadora",
+        "source": [
+            "https://x.com/Maha38408872/status/1761061389152481420?s=20",
+            "https://vicentefelipechile.github.io/chile/media/[twitter] Maha38408872—2024.02.23—1761061389152481420—eDQdF-eyDncqb-Ik.mp4",
+            "https://www.elciudadano.com/actualidad/polemica-por-video-que-muestra-a-concejal-de-huasco-interviniendo-el-humedal-con-una-retroexcavadora-argumento-que-acumulaba-muchos-zancudos/02/13/",
+            "https://web.archive.org/web/20240226004131/https://www.elciudadano.com/actualidad/polemica-por-video-que-muestra-a-concejal-de-huasco-interviniendo-el-humedal-con-una-retroexcavadora-argumento-que-acumulaba-muchos-zancudos/02/13/"
+        ],
+        "description": "ChatGPT: La intervención de un humedal en Huasco, realizada por el concejal Rafael Campos bajo el argumento de controlar la presencia de zancudos, ha generado controversia. Un video muestra maquinaria pesada destruyendo la barrera dunar que protege el humedal, provocando su vaciamiento.\n\nAunque el concejal aseguró tener permisos, la Seremi de Medio Ambiente de Atacama anunció acciones al respecto. Los humedales costeros son especialmente sensibles en la región semiárida de Atacama, y el humedal del río Huasco es uno de los más grandes y biodiversos en la zona.",
+        "date": "2024-02-23"
+    },
+    "33": {
+        "title": "Concretan desalojo de albergues",
+        "source": [
+            "https://x.com/biobio/status/1761520265383620811?s=20",
+            "https://www.biobiochile.cl/noticias/nacional/region-de-valparaiso/2024/02/24/concretan-primeros-desalojos-de-damnificados-por-incendios-desde-albergues-en-valparaiso.shtml"
+        ],
+        "description": "ChatGPT: Este viernes se llevaron a cabo los primeros desalojos de personas damnificadas por los incendios en Valparaíso que se refugiaban en colegios, a pesar de las declaraciones previas del Gobierno de que no serían desalojadas sin alternativas.\n\nAutoridades locales y ciudadanos expresaron preocupación por la falta de coordinación y la necesidad de soluciones adecuadas para los afectados. Según el Ministerio del Interior, hay 499 personas alojadas en estos recintos.",
+        "date": "2024-02-24"
+    },
+    "34": {
+        "title": "Venezolanos causando malestar en Chile",
+        "source": [
+            "https://x.com/camilaemiliasv/status/1761856351075000771?s=20",
+            "https://x.com/GAMBA_CL/status/1761719555368296830?s=20",
+            "https://www.gamba.cl/2024/02/secuestro-empresario-rancagua-venezolanos1/",
+            "https://x.com/Iquiquevision/status/1761597333442060697?s=20",
+            "https://x.com/Vega4Julio/status/1761594273672106245?s=20",
+            "https://x.com/camilaemiliasv/status/1761719948450156931?s=20"
+        ]
     }
 }

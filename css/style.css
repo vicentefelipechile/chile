@@ -2,27 +2,24 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-header {
-    padding-top: 12px;
-    margin: 1.2em;
+html {
+    height: 100%;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+header {
+    margin: 1.5em;
 }
 
 .content-container {
     width: calc(100% - 8em);
-    height: calc(100% - 24em);
+    height: calc(100% - 2em);
     margin-top: 0;
     margin-left: 2em;
     padding: 2em;
     padding-top: .1em;
+    margin-bottom: .1em;
 
-    position: relative;
-
+    position: sticky;
     border-radius: 10px;
     box-shadow: 0 0 18px rgba(0, 0, 0, 0.425);
     overflow-y: scroll;
