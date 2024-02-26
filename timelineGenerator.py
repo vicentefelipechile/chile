@@ -10,14 +10,14 @@ HEADER: str = """document.addEventListener("DOMContentLoaded", (event) => {
 
     // Crear un conjunto de datos
     var items = new vis.DataSet()
-    var argTitle = document.getElementById("arg-title")
-    var argDescription = document.getElementById("arg-description")
-    var argSources = document.getElementById("arg-sources")
+    const argTitle = document.getElementById("arg-title")
+    const argDescription = document.getElementById("arg-description")
+    const argSources = document.getElementById("arg-sources")
 
     // Realizar una copia de los elementos de la plantilla
-    var saveArgTitle = argTitle.cloneNode(true)
-    var saveArgDescription = argDescription.cloneNode(true)
-    var saveArgSources = argSources.cloneNode(true)
+    const saveArgTitle = argTitle.cloneNode(true)
+    const saveArgDescription = argDescription.cloneNode(true)
+    const saveArgSources = argSources.cloneNode(true)
 
     // Configurar la línea de tiempo
     var options = {
@@ -65,9 +65,9 @@ FOOTER: str = """
                 argSources.appendChild(document.createElement("br"))
             })
         } else {
-            argTitle.textContent = saveArgTitle.textContent
-            argDescription.textContent = saveArgDescription.textContent
-            argSources.textContent = saveArgSources.textContent
+            argTitle.innerHTML = saveArgTitle.innerHTML
+            argDescription.innerHTML = saveArgDescription.innerHTML
+            argSources.innerHTML = saveArgSources.innerHTML
         }
     })
 

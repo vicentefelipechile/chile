@@ -37,7 +37,7 @@
             "https://www.gamba.cl/2024/02/iraci-hassler-refugios-climaticos-bidones/",
             "https://x.com/Muni_Stgo/status/1758163653444927515?s=20"
         ],
-        "description": "La alcaldesa de Santiago (PC), Irací Hassler, inauguró el 15 de febrero la ampliación de la red de “refugios climáticos” de la Municipalidad de Santiago.\n\nSon basicamente bidones de agua",
+        "description": "La alcaldesa de Santiago Irací Hassler (PC), inauguró el 15 de febrero la ampliación de la red de “refugios climáticos” de la Municipalidad de Santiago.\n\nSon basicamente bidones de agua",
         "date": "2024-02-15"
     },
     "5": {
@@ -196,7 +196,7 @@
             "https://www.t13.cl/noticia/politica/convergencia-social-denuncio-concejala-su-partido-acusan-vender-entradas-cortes-20-2-2024",
             "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2024/02/20/denuncian-a-concejala-de-santiago-que-venderia-entradas-de-cortesia-para-fantasilandia.shtml"
         ],
-        "description": "ChatGPT: El partido Convergencia Social (CS => PC) denunció a su concejala de Santiago, Yasna Tapia, por presuntamente vender entradas de cortesía para Fantasilandia, utilizando recursos públicos de manera indebida. Ante esta situación, el partido calificó la acusación como \"intolerable\" y presentó una denuncia ante el tribunal regional para esclarecer el caso y aplicar las sanciones correspondientes.\n\nLa diputada Emilia Schneider, también miembro de Convergencia Social, respaldó la respuesta del partido, afirmando que no se puede tolerar ningún tipo de aprovechamiento de la función pública y que la concejala debe responder como cualquier persona. Además, mencionó que se espera una investigación por parte de Contraloría para resolver el caso.",
+        "description": "ChatGPT: El partido Convergencia Social (CS) denunció a su concejala de Santiago, Yasna Tapia, por presuntamente vender entradas de cortesía para Fantasilandia, utilizando recursos públicos de manera indebida. Ante esta situación, el partido calificó la acusación como \"intolerable\" y presentó una denuncia ante el tribunal regional para esclarecer el caso y aplicar las sanciones correspondientes.\n\nLa diputada Emilia Schneider, también miembro de Convergencia Social, respaldó la respuesta del partido, afirmando que no se puede tolerar ningún tipo de aprovechamiento de la función pública y que la concejala debe responder como cualquier persona. Además, mencionó que se espera una investigación por parte de Contraloría para resolver el caso.",
         "date": "2024-02-20"
     },
     "20": {
@@ -375,5 +375,36 @@
         ],
         "description": "Multiples eventos",
         "date": "2024-02-24"
+    },
+    "35": {
+        "title": "Embargan a deudores del CAE",
+        "source": [
+            "https://x.com/ElNacional_CL/status/1762146179238842745?s=20",
+            "https://vicentefelipechile.github.io/chile/media/[twitter] ElNacional_CL—2024.02.26—1762146179238842745—NDR4yJWwYm7WINrt.mp4",
+            "https://www.biobiochile.cl/biobiotv/programas/expreso-bio-bio/2024/02/26/no-habiamos-vistos-embargos-hasta-que-llego-boric-explican-alza-de-500-mil-personas-morosas-por-cae.shtml"
+        ],
+        "description": "ChatGPT: El abogado Juan Pablo Rojas, fundador de Deuda Educativa, critica que la promesa del presidente Gabriel Boric de condonar el Crédito con Aval del Estado (CAE) parece no cumplirse, ya que más de 540 mil personas dejaron de pagarlo y la deuda sigue aumentando. Señala que esta situación afecta a 2 millones de familias y que el compromiso de condonación no se materializó.\n\nRojas denuncia que los bancos están cobrando dinero al Estado a través de la Tesorería General, mencionando una deuda de 58 millones que el Estado pagó al Banco Estado de manera ilegal. Además, critica que bajo el gobierno de Boric se han visto embargos por el CAE, algo que no ocurría con Piñera.",
+        "date": "2024-02-26"
+    },
+    "36": {
+        "title": "Medio venezolano asegura que convenio firmado entre Chile y Venezuela abrieron puertas a secuestro",
+        "source": [
+            "https://www.t13.cl/noticia/politica/medio-venezolano-asegura-convenio-firmado-entre-chile-venezuela-militar-26-2-2024?utm_source=Twitter&utm_medium=Stack&utm_campaign=Share13&utm_id=share13",
+            "https://x.com/T13/status/1762109673426083915?s=20",
+            "https://eldiariodesantiago.cl/archivos/32466",
+            "https://x.com/neoliberalchile/status/1761830188432638310?s=20",
+            "https://x.com/LaRazon__/status/1761726458089607428?s=20"
+        ],
+        "description": "ChatGPT: El medio venezolano La Razón sugiere que el convenio de cooperación en seguridad entre Chile y Venezuela facilitó el secuestro del exmilitar venezolano Ronald Ojeda en territorio chileno. La publicación apunta al gobierno de Maduro y a la DGCIM como responsables, aunque el gobierno venezolano ha negado cualquier participación.\n\nEl convenio fue firmado en enero para combatir el crimen organizado, pero según La Razón, permitió a los organismos venezolanos operar en Chile y facilitó el secuestro de Ojeda.",
+        "date": "2024-02-26"
+    },
+    "37": {
+        "title": "Manuel Monsalve niega noticia del secuestro",
+        "source": [
+            "https://www.t13.cl/noticia/politica/es-una-total-mentira-monsalve-descarta-publicacion-medio-venezolano-militar-26-2-2024",
+            "https://x.com/T13/status/1762109673426083915?s=20"
+        ],
+        "description": "El subsecretario del Interior, Manuel Monsalve (PS), rechazó categóricamente la publicación del medio venezolano La Razón que vinculaba a Chile con el secuestro del exmilitar venezolano Ronald Ojeda. Monsalve calificó la afirmación como una \"total mentira\" y destacó que el convenio de colaboración policial entre Chile y Venezuela tiene como objetivo combatir el crimen organizado, no perpetrar secuestros.",
+        "date": "2024-02-26"
     }
 }
