@@ -406,5 +406,26 @@
         ],
         "description": "El subsecretario del Interior, Manuel Monsalve (PS), rechazó categóricamente la publicación del medio venezolano La Razón que vinculaba a Chile con el secuestro del exmilitar venezolano Ronald Ojeda. Monsalve calificó la afirmación como una \"total mentira\" y destacó que el convenio de colaboración policial entre Chile y Venezuela tiene como objetivo combatir el crimen organizado, no perpetrar secuestros.",
         "date": "2024-02-26"
+    },
+    "38": {
+        "title": "Tribunal Ambiental frena megaproyecto de data center de Google",
+        "source": [
+            "https://www.emol.com/noticias/Economia/2024/02/27/1123008/tribunal-ambiental-data-center.html",
+            "https://x.com/Comecomunistas/status/1762526361674006752?s=20",
+            "https://www.cooperativa.cl/noticias/pais/medioambiente/tribunal-ambiental-freno-proyecto-de-data-center-de-google-en-cerrillos/2024-02-27/154401.html",
+            "https://www.cnnchile.com/economia/tribunal-ambiental-frena-proyecto-google-cerrillos-considerar-efectos-cambio-climatico_20240227/"
+        ],
+        "description": "",
+        "date": "2024-02-27"
+    },
+    "39": {
+        "title": "Google enfrenta arremetida legal por megaproyecto de data center",
+        "source": [
+            "https://www.latercera.com/la-tercera-pm/noticia/guerra-del-agua-en-cerrillos-google-enfrenta-arremetida-legal-por-megaproyecto-de-data-center/3EESORSYUBFX3HZFGNWJU7PGP4/",
+            "https://www.transmedia.cl/blog/2021/03/23/exclusiva-google-paraliza-datacenter-en-cerrillos-y-confirma-primer-datacenter-en-uruguay-por-us100-millones/",
+            "https://www.pauta.cl/actualidad/2024/02/27/debera-incorporar-efectos-en-el-cambio-climatico-tribunal-ambiental-anula-parcialmente-aprobacion-de-cerrillos-data-center-de-google.html"
+        ],
+        "description": "ChatGPT: La municipalidad de Cerrillos ha presentado una reclamación legal contra el proyecto de data center de Google Chile, argumentando que adolece de falencias en su evaluación ambiental y que compromete la conservación del acuífero Santiago Central.\n\nGoogle Chile ha respondido afirmando su compromiso con la sostenibilidad y el cumplimiento de regulaciones ambientales. La municipalidad y algunos representantes políticos expresan preocupación por el impacto del proyecto en la crisis hídrica del país y consideran tomar acciones legales para detenerlo.",
+        "date": "2021-01-06"
     }
 }

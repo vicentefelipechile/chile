@@ -21,7 +21,7 @@ HEADER: str = """document.addEventListener("DOMContentLoaded", (event) => {
 
     // Configurar la línea de tiempo
     var options = {
-        height: "18em",
+        height: "24em",
     }
 
     // Crear la línea de tiempo
