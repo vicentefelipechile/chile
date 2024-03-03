@@ -526,5 +526,56 @@
         ],
         "description": "ChatGPT (Estadisticas): La tasa de desempleo en Chile durante el trimestre noviembre de 2023 - enero de 2024 fue del 8,4%, un aumento de 0,4 puntos porcentuales respecto al año anterior. En la región Metropolitana, la tasa fue del 9,1%, con una ligera disminución de 0,1 puntos porcentuales en doce meses.\n\nEl incremento en la fuerza laboral superó al aumento en las personas empleadas, contribuyendo al aumento del desempleo. La ocupación informal también aumentó, con un crecimiento del 4,0% en un año.\n\nLas tasas de participación y ocupación aumentaron en ambos sexos, siendo mayor el incremento en las mujeres. La población ocupada aumentó un 2,9%, impulsada principalmente por el comercio, la salud y la industria manufacturera.",
         "date": "2024-02-28"
+    },
+    "49": {
+        "title": "Gabriel Boric tomara vacaciones",
+        "source": [
+            "https://es-us.vida-estilo.yahoo.com/boric-tomar%C3%A1-vacaciones-29-enero-184023402.html",
+            "https://www.revistagente.com/cl/actualidad/las-vacaciones-de-gabriel-boric-donde-seran-y-el-fantasma-de-una-nueva-suspension/"
+        ],
+        "description": "Gabriel Boric tomara vacaciones hasta el 29 de enero y sera en el sur",
+        "date": "2024-01-17"
+    },
+    "50": {
+        "title": "Gabriel Boric retoma sus vacaciones",
+        "source": [
+            "https://radiopaulina.cl/2024/02/19/presidente-gabriel-boric-retoma-sus-vacaciones-este-lunes/"
+        ],
+        "description": "Nota: Desde Presidencia indicaron que el jefe de Estado se mantendrá monitoreando la emergencia por los incendios en la región de Valparaíso, en donde Boric designó a la vocera de gobierno, Camila Vallejo, como enlace del Ejecutivo en el sector",
+        "date": "2024-02-19"
+    },
+    "51": {
+        "title": "Gabriel Boric interrumpe sus vacaciones",
+        "source": [
+            "https://www.noticiasbarquisimeto.com/boric-interrumpe-vacaciones-y-encabeza-reunion-por-secuestro-de-exmilitar-venezolano/"
+        ],
+        "description": "Razon: Por secuestro del exmilitar venezolano",
+        "date": "2024-02-23"
+    },
+    "52": {
+        "title": "Gabriel Boric tomara vacaciones",
+        "source": [
+            "https://www.latercera.com/la-tercera-pm/noticia/vacaciones-flexibles-y-una-cita-de-fin-de-ano-el-diseno-de-boric-y-de-la-moneda-para-este-verano/JBGLDKXOFJEIXJ7WS37G7N2QMY/",
+            "https://www.meganoticias.cl/nacional/404022-gabriel-boric-inicia-vacaciones-donde-ira-litoral-central-magallanes-algarrobo-30-01-2023.html"
+        ],
+        "description": "Por primera vez Gabriel Boric tomara vacaciones, dichos del presidente:\n\nPor ello, para este verano 2024 el Mandatario aprendió la lección y la información que ha transmitido a su equipo de ministros es que tendrá unas vacaciones “flexibles” y que aprovechará aquellos espacios que no estén marcados por contingencias para descansar. Una fecha tentativa es la última semana de enero.",
+        "date": "2023-12-26"
+    },
+    "53": {
+        "title": "Gabriel Boric interrumpe sus vacaciones",
+        "source": [
+            "https://www.chilealinstante.cl/actualidad/2023/2/4/gabriel-boric-interrumpe-sus-vacaciones-por-un-terrible-motivo-15671.html",
+            "https://www.t13.cl/noticia/nacional/presidente-republica-interrumpe-sus-vacaciones-incendios-biobio-y-nuble-03-02-2023"
+        ],
+        "description": "Razon: Por incendios forestales en el pais",
+        "date": "2023-02-03"
+    },
+    "54": {
+        "title": "Gabriel Boric en vacaciones",
+        "source": [
+            "https://www.theclinic.cl/2023/02/21/nirvana-lectura-paseo-en-bicicleta-y-un-desayuno-los-relajados-dias-de-vacaciones-de-gabriel-boric/"
+        ],
+        "description": "Gabirle Boric en vacaciones",
+        "date": "2023-02-21"
     }
 }
