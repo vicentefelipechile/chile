@@ -577,5 +577,15 @@
         ],
         "description": "Gabirle Boric en vacaciones",
         "date": "2023-02-21"
+    },
+    "55": {
+        "title": "Peso chileno con el peor desempeño del mundo",
+        "source": [
+            "https://www.bloomberglinea.com/latinoamerica/chile/banco-central-de-chile-no-podra-ignorar-a-la-moneda-de-peor-desempeno-del-mundo/",
+            "https://www.emol.com/noticias/Economia/2024/03/04/1123634/banco-central.html",
+            "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2024/03/04/bloomberg-recalca-que-el-banco-central-no-podra-ignorar-la-depreciacion-del-peso-en-proxima-reunion.shtml"
+        ],
+        "description": "ChatGPT: El mercado de renta fija en Chile anticipaba recortes más agresivos de tasas de interés del banco central, pero esto ha cambiado debido a la fuerte desvalorización del peso chileno y el complejo escenario económico. Ahora se prevé que el Banco Central mantenga el ritmo de recortes de tasas en su próxima reunión. El peso chileno ha tenido el peor desempeño en el mundo este año.\n\nLa economía chilena muestra signos de recuperación, lo que también afecta las decisiones de política monetaria. Se espera que el rumbo de las tasas de los Tesoros de EE.UU. sea el principal impulsor del mercado de bonos en Chile.",
+        "date": "2024-03-04"
     }
 }
