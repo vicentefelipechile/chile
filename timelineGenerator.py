@@ -89,6 +89,12 @@ file.close()
 VariableGenerator: str = "    var contenido = {"
 
 for key, value in contenido.items():
+    if value["date"] == "":
+        print(f"El evento '{value['title']}' no tiene una fecha definida")
+    
+    if value["description"] == "":
+        print(f"El evento '{value['title']}' no tiene una descripción definida")
+
     VariableGenerator += f"\n        {key}: {json.dumps(value, ensure_ascii=False)},"
 VariableGenerator = VariableGenerator[:-1]
 VariableGenerator += "\n    }"
