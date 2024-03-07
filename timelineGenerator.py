@@ -52,7 +52,7 @@ FOOTER: str = """
         // Cargar el contenido correspondiente
         if (evento) {
             argTitle.textContent = evento.title
-            argDescription.textContent = evento.description
+            argDescription.innerHTML = evento.description
 
             // Añadir enlaces para cada fuente encontrada
             argSources.innerHTML = ""
