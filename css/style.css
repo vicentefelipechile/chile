@@ -10,6 +10,11 @@ header {
     margin: 1.5em;
 }
 
+b {
+    /* Efecto de marcador amarillo */
+    background-color: yellow;
+}
+
 .content-container {
     width: calc(100% - 8em);
     height: calc(100% - 2em);
