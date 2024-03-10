@@ -735,9 +735,16 @@
             "https://www.msn.com/es-cl/noticias/other/fue-decisi%C3%B3n-presidencial-boric-orden%C3%B3-las-gestiones-para-excluir-a-israel-de-la-fidae/ar-BB1jr70Y",
             "https://x.com/GonureL/status/1765162881916502210?s=20",
             "https://x.com/Kasterizador/status/1765142753342636175?s=20",
-            "https://vicentefelipechile.github.io/chile/media/[twitter] Kasterizador—2024.03.05—1765142753342636175—dK3Rgw5Z9DOQZvof.mp4",
             "https://www.biobiochile.cl/noticias/nacional/chile/2024/03/05/por-decision-del-gobierno-empresas-israelies-no-participaran-de-fidae-2024.shtml",
-            "https://x.com/VeronicaWelkner/status/1765133754312388840?s=20",
+            "https://x.com/VeronicaWelkner/status/1765133754312388840?s=20"
+        ],
+        "description": "ChatGPT: El presidente Gabriel Boric ordenó las gestiones para excluir a Israel de la Feria Internacional del Aire y del Espacio (FIDAE) debido a la postura coherente del gobierno chileno sobre los ataques en la franja de Gaza.\n\nEsta determinación fue transmitida directamente desde la Presidencia, en conjunto con el respaldo de Convergencia Social (CS) y otras organizaciones que expresaron su oposición a la presencia de Israel en el evento. La decisión recibió críticas por la relación bilateral y los contratos en materia de armamento, pero fue respaldada por su enfoque en los \"derechos humanos\".",
+        "date": "2024-03-05"
+    },
+    "65": {
+        "title": "Gabriel Boric suspende participación de Israel en la Fidae (Parte 2)",
+        "source": [
+            "https://vicentefelipechile.github.io/chile/media/[twitter] Kasterizador—2024.03.05—1765142753342636175—dK3Rgw5Z9DOQZvof.mp4",
             "https://x.com/SebastianRochaZ/status/1765701230800540030?s=20",
             "https://x.com/biobio/status/1765480250123669995?s=20",
             "https://www.biobiochile.cl/noticias/nacional/chile/2024/03/06/comunidad-judia-acusa-sesgo-antisemita-tras-decision-de-excluir-a-empresas-israelies-de-fidae-2024.shtml",
@@ -745,10 +752,10 @@
             "https://x.com/T13/status/1765467391180386540?s=20",
             "https://www.t13.cl/noticia/nacional/comunidad-judia-chile-condena-exclusion-empresas-israelies-fidae-demuestra-6-3-2024"
         ],
-        "description": "ChatGPT: El presidente Gabriel Boric ordenó las gestiones para excluir a Israel de la Feria Internacional del Aire y del Espacio (FIDAE) debido a la postura coherente del gobierno chileno sobre los ataques en la franja de Gaza.\n\nEsta determinación fue transmitida directamente desde la Presidencia, en conjunto con el respaldo de Convergencia Social (CS) y otras organizaciones que expresaron su oposición a la presencia de Israel en el evento. La decisión recibió críticas por la relación bilateral y los contratos en materia de armamento, pero fue respaldada por su enfoque en los \"derechos humanos\".",
+        "description": "Debido a la cantidad de infomacion de este tema, se separo en dos partes",
         "date": "2024-03-05"
     },
-    "65": {
+    "66": {
         "title": "La Moneda aprueba ley \"Fuerza Diferenciada\"",
         "source": [
             "https://www.t13.cl/videos/nacional/polemica-por-uso-diferenciado-fuerza-policial-para-migrantes-indigenas-minorias-6-3-2024",
@@ -762,7 +769,7 @@
         "description": "ChatGPT: El gobierno presentó una indicación en un proyecto de ley sobre el uso de la fuerza por parte de las fuerzas de seguridad, que ha generado críticas tanto de la oposición como de algunos diputados oficialistas.\n\nLa indicación propuesta busca establecer un <b>uso diferenciado de la fuerza</b> en situaciones que involucren a niños, niñas, adolescentes, mujeres, personas con diversidades sexuales, migrantes, indígenas y adultos mayores.\n\nLa ministra del Interior, Carolina Tohá (PPD), salió a defender la propuesta, explicando que no introduce cambios significativos y que se refiere principalmente a la fase disuasiva de las acciones policiales. Sin embargo, algunos parlamentarios expresaron sus dudas y reparos, especialmente en lo que respecta al trato diferenciado a los migrantes.\n\nTanto desde la oposición como desde la derecha, se han criticado aspectos de la indicación y algunos han adelantado su rechazo en caso de no ser modificada.",
         "date": "2024-03-06"
     },
-    "66": {
+    "67": {
         "title": "Intento de secuestro en Maipu",
         "source": [
             "https://x.com/tamaraseguel/status/1765404870658400360?s=20",
@@ -774,7 +781,7 @@
         "description": "ChatGPT: Dos niñas fueron víctimas de un violento intento de secuestro mientras se dirigían al colegio en Maipú. El incidente fue captado por cámaras de seguridad, mostrando a un venezolano que las agredió y trató de subir a una de ellas a un auto.\n\nSin embargo, la hermana mayor logró impedir el secuestro. La madre de las niñas denunció el hecho a Carabineros, quienes están trabajando para dar con los responsables. El incidente ha generado preocupación en la comunidad y en las redes sociales, donde se ha difundido el video del suceso.",
         "date": "2024-03-07"
     },
-    "67": {
+    "68": {
         "title": "Garra blanca secuestra bus",
         "source": [
             "https://x.com/biobio/status/1766110008918323468?s=20",
@@ -797,7 +804,7 @@
         "description": "TO DO",
         "date": "2024-03-08"
     },
-    "68": {
+    "69": {
         "title": "Consecuencias de la exclusion de Israel de la Fidae",
         "source": [
             "https://x.com/biobio/status/1766421112034844771?s=20",
@@ -812,12 +819,18 @@
             "https://www.ex-ante.cl/la-decepcion-de-la-casa-blanca-con-boric-por-sus-decisiones-diplomaticas-con-israel/",
             "https://x.com/ElAcentocl/status/1766242365621121511?s=20",
             "https://x.com/exantecl/status/1766236894516355368?s=20",
-            "https://www.ex-ante.cl/ps-y-ppd-critican-decision-de-boric-de-excluir-a-israel-de-la-fidae-y-el-incomodo-papel-de-van-klaveren/"
+            "https://www.ex-ante.cl/ps-y-ppd-critican-decision-de-boric-de-excluir-a-israel-de-la-fidae-y-el-incomodo-papel-de-van-klaveren/",
+            "https://x.com/T13/status/1766831534940606525?s=20",
+            "https://www.t13.cl/noticia/politica/embajador-israel-chile-por-exclusion-fidae-estamos-analizando-acudir-ocde-omc-10-3-2024",
+            "https://x.com/T13/status/1766833531815080044?s=20",
+            "https://x.com/exantecl/status/1766920712437268750?s=20",
+            "https://www.ex-ante.cl/embajador-de-israel-en-chile-gil-artzyeli-y-exclusion-de-fidae-es-un-historial-largo-de-una-politica-muy-antiisraeli-en-muchos-temas-de-parte-del-gobierno/"
+
         ],
         "description": "TO DO",
         "date": "2024-03-09"
     },
-    "69": {
+    "70": {
         "title": "Funeral del Teniente Ojeda",
         "source": [
             "https://x.com/biobio/status/1766190413117825474?s=20",
@@ -838,5 +851,34 @@
         ],
         "description": "TO DO",
         "date": "2024-03-08"
+    },
+    "71": {
+        "title": "Gabriel Boric respalda al caso de Ronald Ojeda",
+        "source": [
+            "https://x.com/exantecl/status/1766260360812634343?s=20",
+            "https://www.ex-ante.cl/caso-de-ex-teniente-ojeda-y-venezuela-boric-fustiga-al-pc-6-dias-despues-de-salir-a-elogiar-al-partido/"
+        ],
+        "description": "TO DO",
+        "date": "2024-03-08"
+    },
+    "72": {
+        "title": "5 personas baleadas llegan aun hospital con 1 menor de edad muerto",
+        "source": [
+            "https://www.cnnchile.com/pais/personas-heridas-bala-hospital-el-carmen-maipu_20240309/",
+            "https://x.com/CNNChile/status/1766610103178813797?s=20",
+            "https://x.com/ForViltrum/status/1766615529505096121?s=20",
+            "https://www.biobiochile.cl/noticias/nacional/region-metropolitana/2024/03/09/dos-menores-entre-los-heridos-4-personas-baleadas-ingresan-de-urgencia-a-hospital-el-carmen-de-maipu.shtml",
+            "https://www.pagina7.cl/noticias/actualidad/2024/03/09/madre-y-sus-3-hijos-ingresaron-baleados-a-hospital-el-carmen-de-maipu-menor-de-edad-habria-muerto"
+        ],
+        "description": "TO DO",
+        "date": "2024-03-09"
+    },
+    "73": {
+        "title": "Gonzalo Winter (CS) afirma que 40 horas sirven contra la delincuencia",
+        "source": [
+            "https://x.com/Patitoo_Verde/status/1766940930420936735?s=20"
+        ],
+        "description": "TO DO",
+        "date": "2024-03-10"
     }
 }
