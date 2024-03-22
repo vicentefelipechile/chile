@@ -15,6 +15,16 @@ b {
     background-color: yellow;
 }
 
+ul {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2, h3 {
+    margin-bottom: 0px;
+    margin-top: 24px;
+}
+
 .content-container {
     width: calc(100% - 8em);
     height: calc(100% - 2em);

@@ -127,7 +127,11 @@ for key, value in enumerate(contenido):
     contenidoTotal: str = value["title"] + value["description"] + value["date"]
     value["hash"] = md5(contenidoTotal.encode()).hexdigest()
 
-    VariableGenerator += f"\n        {key}: {json.dumps(value, ensure_ascii=False)},"
+    print(value["source"])
+
+    JsonDumpValue: str = json.dumps(value, ensure_ascii=False)
+
+    VariableGenerator += f"\n        {key}: {JsonDumpValue},"
 VariableGenerator = VariableGenerator[:-1]
 VariableGenerator += "\n    }"
 
