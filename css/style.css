@@ -25,6 +25,10 @@ h2, h3 {
     margin-top: 24px;
 }
 
+.bottom-space {
+    margin-bottom: 16px;
+}
+
 .content-container {
     width: calc(100% - 8em);
     height: calc(100% - 2em);
