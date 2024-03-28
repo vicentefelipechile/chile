@@ -55,16 +55,22 @@ FOOTER: str = """
             argTitle.textContent = evento.title
             argDescription.innerHTML = "<a href='https://vicentefelipechile.github.io/chile/#" + evento.hash + "'>Obtener enlace permanente</a><br><br>" + evento.description
 
-            // Añadir enlaces para cada fuente encontrada
             argSources.innerHTML = ""
+
+            // Añadir enlaces para cada fuente encontrada
+            var unordenedList = document.createElement("ul")
+
             evento.source.forEach(function (fuente) {
+                var listItem = document.createElement("li")
                 var link = document.createElement("a")
                 link.href = fuente
-                link.textContent = fuente
                 link.target = "_blank"
-                argSources.appendChild(link)
-                argSources.appendChild(document.createElement("br"))
+                link.textContent = fuente
+                listItem.appendChild(link)
+                unordenedList.appendChild(listItem)
             })
+
+            argSources.appendChild(unordenedList)
         } else {
             argTitle.innerHTML = saveArgTitle.innerHTML
             argDescription.innerHTML = saveArgDescription.innerHTML
@@ -83,16 +89,22 @@ FOOTER: str = """
                 argTitle.textContent = evento.title
                 argDescription.innerHTML = "<a href='https://vicentefelipechile.github.io/chile/#" + evento.hash + "'>Obtener enlace permanente</a><br><br>" + evento.description
 
-                // Añadir enlaces para cada fuente encontrada
                 argSources.innerHTML = ""
+
+                // Añadir enlaces para cada fuente encontrada
+                var unordenedList = document.createElement("ul")
+
                 evento.source.forEach(function (fuente) {
+                    var listItem = document.createElement("li")
                     var link = document.createElement("a")
                     link.href = fuente
-                    link.textContent = fuente
                     link.target = "_blank"
-                    argSources.appendChild(link)
-                    argSources.appendChild(document.createElement("br"))
+                    link.textContent = fuente
+                    listItem.appendChild(link)
+                    unordenedList.appendChild(listItem)
                 })
+
+                argSources.appendChild(unordenedList)
 
                 timeline.moveTo(evento.date)
                 timeline.setSelection([evento.id])
