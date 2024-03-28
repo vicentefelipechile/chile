@@ -1,3 +1,5 @@
+timeline = null
+
 document.addEventListener("DOMContentLoaded", (event) => {
 
     // Crear un conjunto de datos
@@ -13,12 +15,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     // Configurar la línea de tiempo
     var options = {
-        height: "24em",
+        height: "24em"
     }
 
     // Crear la línea de tiempo
     var container = document.getElementById("timeline")
-    var timeline = new vis.Timeline(container, items, options)
+    timeline = new vis.Timeline(container, items, options)
 
     var contenido = {
         0: {"title": "Gabriel Boric actuando mal contra sus compañeros", "source": ["https://x.com/camilaemiliasv/status/1757343742057386118?s=20"], "description": "Gabriel Boric actuando mal contra sus compañeros", "date": "2024-02-13", "hash": "b7434506347fa93ce0b760ecb49ea8e5"},
@@ -197,9 +199,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 })
 
                 argSources.appendChild(unordenedList)
-
                 timeline.moveTo(evento.date)
-                timeline.setSelection([evento.id])
+
+                const id = Object.keys(contenido).find(key => contenido[key].hash === HashID)
+                timeline.setSelection(id)
             }
         }
     }

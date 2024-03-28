@@ -6,7 +6,9 @@ from hashlib import md5
 import json
 
 
-HEADER: str = """document.addEventListener("DOMContentLoaded", (event) => {
+HEADER: str = """timeline = null
+
+document.addEventListener("DOMContentLoaded", (event) => {
 
     // Crear un conjunto de datos
     var items = new vis.DataSet()
@@ -21,12 +23,12 @@ HEADER: str = """document.addEventListener("DOMContentLoaded", (event) => {
 
     // Configurar la línea de tiempo
     var options = {
-        height: "24em",
+        height: "24em"
     }
 
     // Crear la línea de tiempo
     var container = document.getElementById("timeline")
-    var timeline = new vis.Timeline(container, items, options)
+    timeline = new vis.Timeline(container, items, options)
 
 """
 
@@ -105,9 +107,10 @@ FOOTER: str = """
                 })
 
                 argSources.appendChild(unordenedList)
-
                 timeline.moveTo(evento.date)
-                timeline.setSelection([evento.id])
+
+                const id = Object.keys(contenido).find(key => contenido[key].hash === HashID)
+                timeline.setSelection(id)
             }
         }
     }
