@@ -3,9 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <script src="js/timeline.js"></script>
+
     <title>Cronologia de Chile</title>
 </head>
 <body>
-    
+    <div class="main-content">
+        <header>
+            <div class="header">
+                <h1 class="header-item">Linea cronologica de Chile</h1>
+                <div class="header-item">Hola</div>
+                <div class="header-item">Adios</div>
+                <div class="header-item">Volveremos a vernos</div>
+            </div>
+        </header>
+        <div class="separator border">Ultima vez actualizado: {{FECHA}}</div>
+        <div class="body-content border">
+            <div class="body-article border">
+                <div class="sub-header background-white">
+                    <div class="separator border-only"></div>
+                    <div class="inner-content">Hola</div>
+                    <div class="separator border-only"></div>
+                </div>
+
+                <div class="timeline border background-white" id="timeline"></div>
+
+                <div class="border-notop background-white">hola</div>
+            </div>
+            <div class="body-sidebar border"></div>
+        </div>
+    </div>
 </body>
 </html>
