@@ -8,6 +8,8 @@ const TimelineDate = document.getElementById("timeline-date")
 const TimelineDescription = document.getElementById("timeline-description")
 const TimelineSource = document.getElementById("timeline-source")
 
+TimelineDate.textContent = new Date().toLocaleDateString("es-ES", { weekday: "long", year: "numeric", month: "long", day: "numeric" })
+
 const CopyTimelineTitle = TimelineTitle.cloneNode(true)
 const CopyTimelineAuthor = TimelineAuthor.cloneNode(true)
 const CopyTimelineDate = TimelineDate.cloneNode(true)
@@ -58,7 +60,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         if (SelectedTimeline) {
             TimelineTitle.textContent = SelectedTimeline.title
             TimelineAuthor.textContent = "Por " + SelectedTimeline.author
-            TimelineDate.textContent = new Date(SelectedTimeline.date).toLocaleDateString()
+            TimelineDate.textContent = new Date(SelectedTimeline.date).toLocaleDateString("es-ES", { weekday: "long", year: "numeric", month: "long", day: "numeric" })
             TimelineDescription.innerHTML = SelectedTimeline.description
 
             // Set source
