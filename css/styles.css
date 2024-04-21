@@ -101,26 +101,6 @@
     border-bottom: 0;
 }
 
-.body-content {
-    display: flex;
-
-    border-top-width: 0;
-    border-top-style: solid;
-    border-top-color: rgb(255, 255, 255);
-}
-
-.body-article {
-    width: -webkit-fill-available;
-    margin: 10px;
-    background-color: var(--clr-whitegray);
-}
-
-.body-sidebar {
-    width: calc(100% * 0.2);
-    min-width: 220px;
-    margin: 10px;
-}
-
 /* TIMELINE */
 
 .timeline {
