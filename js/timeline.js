@@ -2,12 +2,14 @@
 MainTimeline = document.getElementById("timeline")
 VisTimeline = null
 
+const SidebarArticles = document.getElementById("sidebar-articles")
+const LastUpdate = document.getElementById("last-update")
+
 const TimelineTitle = document.getElementById("timeline-title")
 const TimelineAuthor = document.getElementById("timeline-author")
 const TimelineDate = document.getElementById("timeline-date")
 const TimelineDescription = document.getElementById("timeline-description")
 const TimelineSource = document.getElementById("timeline-source")
-const LastUpdate = document.getElementById("last-update")
 
 TimelineDate.textContent = new Date().toLocaleDateString("es-ES", { weekday: "long", year: "numeric", month: "long", day: "numeric" })
 
@@ -32,6 +34,43 @@ const GetData = (async () => {
 
     throw new Error("Error al obtener el cronograma")
 })
+
+const ShowLastArticles = async (amount) => {
+    amount = amount || 5
+
+    const All = await GetData()
+    const Data = All["articles"]
+
+    for (let i = Data.length - amount; i < Data.length; i++) {
+        const Article = Data[i]
+
+        const ArticleElement = document.createElement("div")
+        ArticleElement.classList.add("sidebar-item-subitem")
+
+        const ArticleTitle = document.createElement("h3")
+        ArticleTitle.textContent = Article.title
+
+        const ArticleDate = document.createElement("p")
+        ArticleDate.textContent = CreateDate(Article.date)
+
+        const ArticleDescription = document.createElement("p")
+        // Max length of description
+        ArticleDescription.textContent = Article.description.substring(0, 100) + "..."
+
+        ArticleElement.appendChild(ArticleTitle)
+        ArticleElement.appendChild(ArticleDate)
+        ArticleElement.appendChild(ArticleDescription)
+
+        SidebarArticles.appendChild(ArticleElement)
+
+        // if is the last article, then add "sidebar-item-subitem-last" class
+        if (i !== Data.length - 1) {
+            HorizontalLine = document.createElement("hr")
+            SidebarArticles.appendChild(HorizontalLine)
+        }
+    }
+}
+
 
 document.addEventListener("DOMContentLoaded", async function() {
     const items = new vis.DataSet()
@@ -97,4 +136,9 @@ document.addEventListener("DOMContentLoaded", async function() {
             TimelineSource.innerHTML = CopyTimelineSource.innerHTML
         }
     })
+
+    const timelinepanel = document.getElementsByClassName("vis-panel vis-center")[0]
+    timelinepanel.classList.add("cursor-move")
+
+    ShowLastArticles()
 })
