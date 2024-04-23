@@ -7,6 +7,7 @@ const TimelineAuthor = document.getElementById("timeline-author")
 const TimelineDate = document.getElementById("timeline-date")
 const TimelineDescription = document.getElementById("timeline-description")
 const TimelineSource = document.getElementById("timeline-source")
+const LastUpdate = document.getElementById("last-update")
 
 TimelineDate.textContent = new Date().toLocaleDateString("es-ES", { weekday: "long", year: "numeric", month: "long", day: "numeric" })
 
@@ -17,11 +18,16 @@ const CopyTimelineDescription = TimelineDescription.cloneNode(true)
 const CopyTimelineSource = TimelineSource.cloneNode(true)
 
 /* Functions */
+const CreateDate = (date) => {
+    return new Date(date).toLocaleDateString("es-ES", { weekday: "long", year: "numeric", month: "long", day: "numeric" })
+}
+
 const GetData = (async () => {
-    const Response = await fetch("cronograma.json")
+    // const Response = await fetch("cronograma.json")
+    const Response = await fetch("https://pub-8894ff44a6f3423591cf59b2b272f41b.r2.dev/cronograma.json")
 
     if (Response.ok) {
-        return Response.json()
+        return await Response.json()
     }
 
     throw new Error("Error al obtener el cronograma")
@@ -35,7 +41,10 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     VisTimeline = new vis.Timeline(MainTimeline, items, options)
 
-    let Data = await GetData()
+    let All = await GetData()
+    let Data = All["articles"], Info = All["info"]
+
+    LastUpdate.textContent = "Última actualización: " + CreateDate(Info["last_update"])
 
     Data = Data.map((item, index) => {
         item.id = index
@@ -60,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         if (SelectedTimeline) {
             TimelineTitle.textContent = SelectedTimeline.title
             TimelineAuthor.textContent = "Por " + SelectedTimeline.author
-            TimelineDate.textContent = new Date(SelectedTimeline.date).toLocaleDateString("es-ES", { weekday: "long", year: "numeric", month: "long", day: "numeric" })
+            TimelineDate.textContent = CreateDate(SelectedTimeline.date)
             TimelineDescription.innerHTML = SelectedTimeline.description
 
             // Set source
@@ -80,6 +89,12 @@ document.addEventListener("DOMContentLoaded", async function() {
             })
 
             TimelineSource.appendChild(unordenedList)
+        } else {
+            TimelineTitle.textContent = CopyTimelineTitle.textContent
+            TimelineAuthor.textContent = CopyTimelineAuthor.textContent
+            TimelineDate.textContent = CopyTimelineDate.textContent
+            TimelineDescription.innerHTML = CopyTimelineDescription.innerHTML
+            TimelineSource.innerHTML = CopyTimelineSource.innerHTML
         }
     })
 })
