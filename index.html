@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/article.css">
-    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/article.css">
+    <link rel="stylesheet" href="/src/css/sidebar.css">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
     <link href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css">
     <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
@@ -33,15 +35,22 @@
 
                 <div class="timeline border background-white" id="timeline"></div>
 
-                <div id="timeline-title" class="body-article-title background-white">Titulo del contenido</div>
+                <div id="timeline-title" class="body-article-title background-white">Informacion</div>
                 <div class="body-article-info background-white">
                     <div id="timeline-author">Por vicentefelipechile</div>
                     <div id="timeline-date"></div>
                 </div>
-                <div id="timeline-description" class="body-article-description background-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, reiciendis tempora quidem explicabo labore sunt? Libero esse adipisci obcaecati iusto ad et, nihil similique explicabo commodi ab, repellat, omnis soluta?</div>
+                <div id="timeline-description" class="body-article-description background-white deny-white-space">
+                    <img alt="Endpoint Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fvicentefelipechile%2Fchile.json&amp;style=plastic&amp;logo=curl&amp;label=Visitantes&amp;color=blue">
+                    <br>
+                    Esta pagina muestra la linea cronologica de todos los eventos asociados de Chile desde 2020 hasta la actualidad. Ten encuenta que esta informacion puede estar desactualizada o ser incorrecta. De ser asi, por favor hazme una mencion en Twitter (<a href="https://twitter.com/UltimatusVirsus">@UltimatusVirsus</a>) para corregirlo.
+                    <br>
+                    <h1>Partidos politicos</h1>
+                    <ul class="mono-font" id="partidos-politicos"></ul>
+                </div>
                 <div id="timeline-source" class="body-article-source background-white">
                     <ul>
-                        <li>Hola</li>
+                        <li><a href="https://es.wikipedia.org/wiki/Partidos_políticos_de_Chile">https://es.wikipedia.org/wiki/Partidos_políticos_de_Chile</a></li>
                     </ul>
                 </div>
             </div>
@@ -55,6 +64,7 @@
         </div>
     </div>
 
-    <script src="js/timeline.js"></script>
+    <script src="/src/js/timeline.js"></script>
+    <script src="/src/js/partidos-politicos.js"></script>
 </body>
 </html>
