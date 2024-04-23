@@ -5,6 +5,11 @@
     src: url("../fonts/Roboto-Regular.ttf");
 }
 
+@font-face {
+    font-family: "JetBrainsMono";
+    src: url("../fonts/JetBrainsMono-Regular.woff2");
+}
+
 /* ROOT AND PRINCIPAL */
 
 :root {
@@ -16,9 +21,6 @@
     --border-bold-size: 2px;
     --margin: 16px;
     --padding: 16px;
-
-    /* Screen size */
-    --screen-sm: 843px;
 }
 
 * {
@@ -32,10 +34,19 @@ hr {
     background-color: var(--clr-gray);
 }
 
-/* STYLE */
-
 .cursor-move {
     cursor: move;
+}
+
+/* STYLE */
+
+ul.mono-font {
+    font-family: "JetBrainsMono", monospace;
+    white-space: normal;
+}
+
+li {
+    font-family: inherit;
 }
 
 .border {
@@ -120,7 +131,7 @@ hr {
 }
 
 /* if the screen is smaller than 768px then reduce the size of h1*/
-@media screen and (max-width: 843px) {
+@media screen and (max-width: 885px) {
     h1 {
         font-size: 1.3em;
     }
