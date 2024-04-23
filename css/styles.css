@@ -1,7 +1,7 @@
 /* ALL FONTS */
 
 @font-face {
-    font-family: 'Roboto-SelfHosted';
+    font-family: "Roboto-SelfHosted";
     src: url("../fonts/Roboto-Regular.ttf");
 }
 
@@ -22,11 +22,21 @@
 }
 
 * {
-    font-family: 'Roboto-SelfHosted', sans-serif;
+    font-family: "Roboto-SelfHosted", sans-serif;
     cursor: default;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--clr-gray);
+}
+
 /* STYLE */
+
+.cursor-move {
+    cursor: move;
+}
 
 .border {
     padding: var(--padding);
@@ -128,8 +138,18 @@
         border-top-color: rgb(255, 255, 255);
         flex-direction: column;
     }
+}
 
-    .body-sidebar {
-        width: inherit;
-    }
+/* OVERRIDE VIS */
+
+.vis-item-content {
+    box-sizing: border-box;
+    padding: 5px;
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+.vis-group {
+    cursor: move;
 }
