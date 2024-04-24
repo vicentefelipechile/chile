@@ -45,7 +45,7 @@ const GetData = (async () => {
 })
 
 const ShowLastArticles = async (amount) => {
-    amount = amount || 5
+    amount = amount || 6
 
     const All = await GetData()
     const Data = All["articles"]
@@ -63,6 +63,8 @@ const ShowLastArticles = async (amount) => {
         ArticleTitle.onclick = (() => {
             VisTimeline.setSelection(i)
             VisTimeline.moveTo(Article.date)
+
+            ShowArticle(i)
         })
 
 
@@ -93,6 +95,36 @@ const ShowLastArticles = async (amount) => {
             SidebarArticles.appendChild(HorizontalLine)
         }
     }
+}
+
+const ShowArticle = (id) => {
+    const Article = CacheData[id]
+
+    TimelineTitle.textContent = Article.title
+    TimelineAuthor.textContent = "Por " + Article.author
+    TimelineDate.textContent = CreateDate(Article.date)
+
+    TimelineDescription.classList.remove("deny-white-space")
+
+    TimelineDescription.innerHTML = Article.description
+
+    // Set source
+    TimelineSource.innerHTML = ""
+
+    const unordenedList = document.createElement("ul")
+
+    Article.source.forEach((LinkSource) => {
+        const ListItem = document.createElement("li")
+        const Link = document.createElement("a")
+
+        LinkText = document.createTextNode(LinkSource)
+        Link.appendChild(LinkText)
+        Link.href = LinkSource
+        ListItem.appendChild(Link)
+        unordenedList.appendChild(ListItem)
+    })
+
+    TimelineSource.appendChild(unordenedList)
 }
 
 
@@ -130,31 +162,7 @@ document.addEventListener("DOMContentLoaded", async function() {
         const SelectedTimeline = Object.values(Data).find((Event) => { return Event.title === items.get(ID).content })
 
         if (SelectedTimeline) {
-            TimelineTitle.textContent = SelectedTimeline.title
-            TimelineAuthor.textContent = "Por " + SelectedTimeline.author
-            TimelineDate.textContent = CreateDate(SelectedTimeline.date)
-
-            TimelineDescription.classList.remove("deny-white-space")
-
-            TimelineDescription.innerHTML = SelectedTimeline.description
-
-            // Set source
-            TimelineSource.innerHTML = ""
-
-            const unordenedList = document.createElement("ul")
-
-            SelectedTimeline.source.forEach((LinkSource) => {
-                const ListItem = document.createElement("li")
-                const Link = document.createElement("a")
-
-                LinkText = document.createTextNode(LinkSource)
-                Link.appendChild(LinkText)
-                Link.href = LinkSource
-                ListItem.appendChild(Link)
-                unordenedList.appendChild(ListItem)
-            })
-
-            TimelineSource.appendChild(unordenedList)
+            ShowArticle(ID)
         } else {
             TimelineTitle.textContent = CopyTimelineTitle.textContent
             TimelineAuthor.textContent = CopyTimelineAuthor.textContent
