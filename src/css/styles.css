@@ -26,6 +26,7 @@
 * {
     font-family: "Roboto-SelfHosted", sans-serif;
     cursor: default;
+    text-decoration: inherit;
 }
 
 hr {
@@ -47,6 +48,15 @@ ul.mono-font {
 
 li {
     font-family: inherit;
+}
+
+.header-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+
+    width: fit-content;
+    height: fit-content;
 }
 
 .border {
