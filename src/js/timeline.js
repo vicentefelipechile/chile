@@ -50,7 +50,10 @@ const ShowLastArticles = async (amount) => {
     const All = await GetData()
     const Data = All["articles"]
 
-    for (let i = Data.length - amount; i < Data.length; i++) {
+    const Start = Data.length - amount
+    const End = Data.length
+
+    for (let i = End - 1; i >= Start; i--) {
         const Article = Data[i]
 
         const ArticleElement = document.createElement("div")
@@ -72,8 +75,7 @@ const ShowLastArticles = async (amount) => {
         ArticleDate.textContent = CreateDate(Article.date)
 
         const ArticleDescription = document.createElement("p")
-    
-        // Max length of description
+
         if (Article.description.length > 100) {
             ArticleDescription.textContent = Article.description.substring(0, 100) + "..."
         } else {
@@ -89,8 +91,7 @@ const ShowLastArticles = async (amount) => {
 
         SidebarArticles.appendChild(ArticleElement)
 
-        // if is the last article, then add "sidebar-item-subitem-last" class
-        if (i !== Data.length - 1) {
+        if (i !== Start) {
             HorizontalLine = document.createElement("hr")
             SidebarArticles.appendChild(HorizontalLine)
         }
@@ -106,7 +107,7 @@ const ShowArticle = (id) => {
 
     TimelineDescription.classList.remove("deny-white-space")
 
-    TimelineDescription.innerHTML = Article.description
+    TimelineDescription.innerHTML = `<a class="permalink" href=https://cronologiadechile.pages.dev/#` + id + `>Obtener enlace permanente</a><br><br>` + Article.description
 
     // Set source
     TimelineSource.innerHTML = ""
@@ -178,4 +179,16 @@ document.addEventListener("DOMContentLoaded", async function() {
     timelinepanel.classList.add("cursor-move")
 
     ShowLastArticles()
+
+    // Check if there is an article in the URL
+    let ArticleID = window.location.hash.substring(1)
+
+    if (ArticleID) {
+        ArticleID = parseInt(ArticleID)
+
+        VisTimeline.setSelection(ArticleID)
+        VisTimeline.moveTo(CacheData[ArticleID].date)
+
+        ShowArticle(ArticleID)
+    }
 })
