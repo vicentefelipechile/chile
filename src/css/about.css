@@ -1,0 +1,17 @@
+hr {
+    margin: 16px 0;
+    height: 2px;
+    background-color: rgb(110 110 110);
+}
+
+.about-content {
+    margin: 16px;
+}
+
+.about-title {
+    margin-bottom: 8px;
+}
+
+.about-description {
+    margin-top: 24px;
+}
