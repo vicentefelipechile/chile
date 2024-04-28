@@ -3,23 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/styles.css">
-    <link rel="stylesheet" href="/src/css/article.css">
-    <link rel="stylesheet" href="/src/css/sidebar.css">
+    <link rel="icon" type="image/x-icon" href="https://cronologiadechile.pages.dev/favico.ico">
 
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <!-- Primary Meta Tags -->
+    <title>Linea Cronológica de chile</title>
+    <meta name="title" content="Linea Cronologica de chile" />
+    <meta name="description" content="Esta pagina es una linea temporal de la mayoria de los eventos que ocurren en chile desde el año 2020 (o antes) hasta el dia de hoy" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cronologiadechile.pages.dev/" />
+    <meta property="og:title" content="Linea Cronologica de chile" />
+    <meta property="og:description" content="Esta pagina es una linea temporal de la mayoria de los eventos que ocurren en chile desde el año 2020 (o antes) hasta el dia de hoy" />
+    <meta property="og:image" content="https://cronologiadechile.pages.dev/src/img/banner.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:creator" content="@UltimatusVirsus" />
+    <meta property="twitter:url" content="https://cronologiadechile.pages.dev/" />
+    <meta property="twitter:title" content="Linea Cronologica de chile" />
+    <meta property="twitter:description" content="Esta pagina es una linea temporal de la mayoria de los eventos que ocurren en chile desde el año 2020 (o antes) hasta el dia de hoy" />
+    <meta property="twitter:image" content="https://cronologiadechile.pages.dev/src/img/banner.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
 
     <link href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css">
     <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
 
-    <title>Cronologia de Chile</title>
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="/src/css/article.css">
+    <link rel="stylesheet" href="/src/css/sidebar.css">
 </head>
 <body>
     <div class="main-content">
 
 
         <!-- HEADER -->
-        <header>
+        <header class="style">
             <div id="header" class="header">
                 <h1 class="header-item">
                     <a class="header-link" href="/">Linea cronologica de Chile</a>
@@ -27,8 +47,11 @@
                 <div id="about" class="header-item">
                     <a class="header-link" href="/about.html">Sobre esta pagina</a>
                 </div>
-                <div class="header-item">Adios</div>
-                <div class="header-item">Volveremos a vernos</div>
+            </div>
+            <div class="dark-theme">
+                <button id="dark-theme-button" onclick='alert("Lamentablemente esto no sirve y no se como hacerlo funcionar.")'>
+                    <img src="/src/img/dark-theme.svg" alt="Dark Theme" class="dark-theme">
+                </button>
             </div>
         </header>
         <!-- HEADER -->

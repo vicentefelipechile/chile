@@ -13,8 +13,18 @@
 /* ROOT AND PRINCIPAL */
 
 :root {
+
+    /* Light mode */
+    --clr-white: rgb(255, 255, 255);
+    --clr-darkwhite: rgb(240, 240, 240);
     --clr-gray: rgb(187, 187, 187);
     --clr-whitegray: rgb(210, 210, 210);
+
+    /* Dark mode */
+    --clr-dark: rgb(0, 0, 0);
+    --clr-darkgray: rgb(50, 50, 50);
+    --clr-darkgray2: rgb(70, 70, 70);
+
     --border: 1px solid var(--clr-gray);
     --border-size: 1px;
     --border-bold: 2px solid var(--clr-gray);
@@ -29,10 +39,27 @@
     text-decoration: inherit;
 }
 
+a {
+    cursor: pointer;
+}
+
 hr {
     border: 0;
     height: 1px;
     background-color: var(--clr-gray);
+}
+
+header.style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.dark-theme {
+    width: 32px;
+    height: 32px;
+    filter: invert(1);
 }
 
 .cursor-move {
@@ -76,7 +103,7 @@ li {
 }
 
 .background-white {
-    background-color: white;
+    background-color: var(--clr-white);
 }
 
 .main-content {
@@ -112,11 +139,15 @@ li {
     margin-right: 40px;
 }
 
+div.header-item {
+    font-size: 1.2em;
+}
+
 .separator {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(240, 240, 240);
+    background-color: var(--clr-darkwhite);
 }
 
 .inner-content {
@@ -132,6 +163,15 @@ li {
     border-bottom: 0;
 }
 
+.permalink {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #252525;
+    background-color: #ffc200;
+}
+
 /* TIMELINE */
 
 .timeline {
@@ -140,8 +180,7 @@ li {
     border-top: 0;
 }
 
-/* if the screen is smaller than 768px then reduce the size of h1*/
-@media screen and (max-width: 885px) {
+@media screen and (max-width: 928px) {
     h1 {
         font-size: 1.3em;
     }
@@ -173,4 +212,60 @@ li {
 
 .vis-group {
     cursor: move;
+}
+
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-white: rgb(30, 30, 30);
+        --clr-gray: rgb(50, 50, 50);
+        --clr-whitegray: rgb(80, 80, 80);
+        --clr-darkwhite: rgb(60, 60, 60);
+
+        --clr-dark: rgb(255, 255, 255);
+        --clr-darkgray: rgb(187, 187, 187);
+        --clr-darkgray2: rgb(210, 210, 210);
+
+        --font-color: rgb(204, 204, 204);
+    }
+
+    * {
+        color: var(--font-color);
+    }
+
+    body {
+        background-color: #1f1f1f;
+    }
+
+    .vis-item.vis-box {
+        background-color: #1b243f;
+        border-color: #1f41a4;
+        border-radius: 2px;
+        border-style: solid;
+        text-align: center;
+    }
+
+    .vis-item.vis-selected {
+        background-color: #4b492c;
+        border-color: #ffc200;
+        z-index: 2;
+    }
+
+    .vis-time-axis .vis-text {
+        color: #bdbdbd;
+    }
+
+    .dark-theme {
+        filter: invert(1);
+    }
+
+    .permalink {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: #252525;
+        background-color: #ffc200;
+    }
 }
