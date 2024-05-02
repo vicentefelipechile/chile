@@ -39,6 +39,10 @@
     text-decoration: inherit;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
 a {
     cursor: pointer;
 }
