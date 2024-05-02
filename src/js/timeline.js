@@ -18,7 +18,7 @@ TimelineDate.textContent = CreateDate()
 const CopyTimelineTitle = TimelineTitle.cloneNode(true)
 const CopyTimelineAuthor = TimelineAuthor.cloneNode(true)
 const CopyTimelineDate = TimelineDate.cloneNode(true)
-const CopyTimelineDescription = TimelineDescription.cloneNode(true)
+let CopyTimelineDescription = TimelineDescription.cloneNode(true)
 const CopyTimelineSource = TimelineSource.cloneNode(true)
 
 /* Functions */
@@ -191,4 +191,6 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         ShowArticle(ArticleID)
     }
+
+    CopyTimelineDescription = TimelineDescription.cloneNode(true)
 })
