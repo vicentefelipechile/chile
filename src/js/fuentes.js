@@ -39,16 +39,16 @@ document.addEventListener("DOMContentLoaded", async () => {
         Input.name = "user-" + fuente
         Input.id = "user-" + fuente
 
-        const Label = document.createElement("label")
-        Label.htmlFor = "user-" + fuente
-        Label.innerText = "@" + fuente
-
         const ProfilePhoto = document.createElement("img")
         ProfilePhoto.src = "/src/img/" + fuente + ".jpg"
         ProfilePhoto.alt = "@" + fuente
 
+        const Label = document.createElement("label")
+        Label.appendChild(ProfilePhoto)
+        Label.htmlFor = "user-" + fuente
+        Label.innerHTML += "@" + fuente
+
         NewItem.appendChild(Input)
-        NewItem.appendChild(ProfilePhoto)
         NewItem.appendChild(Label)
 
         ItemList.appendChild(NewItem)
