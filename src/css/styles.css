@@ -77,6 +77,12 @@ li {
 
 /* STYLE */
 
+.body-article {
+    width: -webkit-fill-available;
+    margin: 10px;
+    background-color: var(--clr-whitegray);
+}
+
 .background-white {
     background-color: var(--clr-white);
 }
@@ -188,6 +194,10 @@ div.header-item {
         margin-right: 20px;
         font-size: 1em;
 
+        display: contents;
+    }
+
+    h1.header-item {
         display: contents;
     }
 
