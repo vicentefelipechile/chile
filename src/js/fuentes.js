@@ -65,6 +65,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 })
 
 AskSourcesButton.addEventListener("click", async () => {
+    if (DateUntil.value <= DateBegin.value) {
+        alert("La fecha de inicio no puede ser mayor o igual a la fecha de término")
+        return
+    }
+
     const AllCheckBoxes = document.querySelectorAll("input[type='checkbox']")
     const ContainOnlyLinks = document.getElementById("sources-includelinks").checked
     let SelectedSources = []
