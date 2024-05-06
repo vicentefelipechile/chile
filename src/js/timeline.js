@@ -1,4 +1,15 @@
-const CreateDate = (d) => {d = d || new Date(); return new Date(d).toLocaleDateString("es-ES", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
+const FormatDate = { weekday: "long", year: "numeric", month: "long", day: "numeric" }
+const DateObject = new Date()
+
+const CreateDate = (d) => {
+    d = d || DateObject
+
+    if (typeof d === "string") {
+        d = d.replace(/-/g, "/")
+    }
+
+    return new Date(d).toLocaleDateString("es-CL", FormatDate)
+}
 
 /* Variables */
 MainTimeline = document.getElementById("timeline")
